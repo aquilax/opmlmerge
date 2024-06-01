@@ -22,7 +22,7 @@ func walkOutlines(outlines []opml.Outline, cb func(opml.Outline)) {
 func main() {
 	flag.Usage = func() {
 		w := flag.CommandLine.Output()
-		fmt.Fprintf(w, "Usage %s: [FILE]...\n", os.Args[0])
+		fmt.Fprintf(w, "Usage: %s [FILE]...\n", os.Args[0])
 		flag.PrintDefaults()
 	}
 

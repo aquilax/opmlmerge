@@ -12,7 +12,7 @@ go install github.com/aquilax/opmlmerge@latest
 
 ```bash
 $ opmlmerge
-Usage opmlmerge: [FILE]...
+Usage opmlmerge [FILE]...
 ```
 
 Order of files matter as all subsequent files will be appended to the first one
